@@ -1,0 +1,44 @@
+@import '_inc.scss';
+
+body {
+	background: url(../images/mountain-background-dark.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: $regular;
+	font-size: $thin;
+	label {
+		font-size: $thin;
+	}
+}
+
+.navbar-default {
+  background: transparent;
+  border: none;
+ }
+
+ .navbar-default {
+ 	.navbar-brand {
+		color: $white;
+		font-family: $logo;
+	}
+	.navbar-nav > li > a {
+		color: $white;
+		font-family: $fancy;
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+.hand, h3.hand {
+	font-family:$hand;
+	color:$white;
+	margin-bottom:35px;
+}
+
+.panel {
+	padding-top: 25px;
+}
+

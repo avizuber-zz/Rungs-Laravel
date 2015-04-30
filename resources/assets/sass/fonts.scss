@@ -1,0 +1,21 @@
+// Font Families
+
+$logo: 'Pacifico', Helvetica, Arial, sans-serif, cursive;
+$hand: 'Amatic SC', Helvetica, Arial, sans-serif, cursive;
+$clean: 'Open Sans', Helvetica, Arial, sans-serif;
+$fancy: 'Raleway', Helvetica, Arial, sans-serif;
+$regular: Helvetica, Arial, sans-serif;
+
+// Font Weights
+
+$thin: 300;
+
+// Font Sizes
+
+$small-text: .5em;
+
+// Text Transformations
+
+.capitalize {
+	text-transform: capitalize;
+}

@@ -1,0 +1,29 @@
+@import '_inc.scss';
+
+body {
+	background: url(../images/ladder-background-dark.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: $regular;
+	font-size:2em;
+}
+
+.logo, h1.logo {
+	font-family: $logo;
+	text-align: center;
+}
+
+.intro, h3.intro {
+	font-family: $hand;
+	text-align:center;
+}
+
+.white {
+	color:$white;
+}
+
+.welcome-buttons {
+	padding-top:145px;
+}

@@ -1,0 +1,268 @@
+// SHADES
+
+.faded {
+	h1,h2,h3,h4,h5,h6,p,a {
+		color:$lightGrey;
+	}
+}
+
+h1.faded,h2.faded,h3.faded,h4.faded,h5.faded,h6.faded,p.faded,a.faded{
+	color:$lightGrey;
+}
+
+.white {
+	h1,h2,h3,h4,h5,h6,p,a {
+		color:$white;
+	}
+}
+
+h1.white,h2.white,h3.white,h4.white,h5.white,h6.white,p.white,a.white{
+	color:$white;
+}
+
+.black {
+	h1,h2,h3,h4,h5,h6,p,a {
+		color:$black;
+	}
+}
+
+h1.black,h2.black,h3.black,h4.black,h5.black,h6.black,p.black,a.black{
+	color:$black;
+}
+
+.danger {
+	h1,h2,h3,h4,h5,h6,p,a {
+		color:$danger;
+	}
+}
+
+h1.danger,h2.danger,h3.danger,h4.danger,h5.danger,h6.danger,p.danger,a.danger{
+	color:$danger;
+}
+
+.dropdown-menu > li > a.danger {
+	color:$danger;	
+}
+
+.thin {
+	h1,h2,h3,h4,h5,h6,p,a {
+		font-weight: $thin;
+	}
+}
+
+h1.thin,h2.thin,h3.thin,h4.thin,h5.thin,h6.thin,p.thin,a.thin{
+	font-weight: $thin;
+}
+
+.fancy {
+	h1,h2,h3,h4,h5,h6,p,a {
+		font-family: $fancy;
+	}
+}
+
+h1.fancy,h2.fancy,h3.fancy,h4.fancy,h5.fancy,h6.fancy,p.fancy,a.fancy{
+	font-family: $fancy;
+}
+
+.text-small {
+	h1,h2,h3,h4,h5,h6,p,a,span {
+		font-size: $small-text;
+	}
+}
+
+span.text-small {
+	font-size: $small-text;
+	vertical-align: middle;
+}
+
+.kill-margin-top {
+	margin-top: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,div {
+	.kill-margin-top {
+		margin-top: 0px;
+	}
+}
+
+.kill-margin-bottom {
+	margin-bottom: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,div {
+	.kill-margin-bottom {
+		margin-bottom: 0px;
+	}
+}
+
+// BUTTONS
+
+.btn-primary {
+	color: $white;
+	background-color: $primary;
+	border-color: darken($primary, 5%);
+	font-family: $clean;
+	&:hover {
+		background-color: darken($primary, 10%);
+		border-color: darken($primary, 15%);
+	}
+}
+
+.btn-primary-invert {
+	background: $white;
+	border-color: $white;
+	color: $primary;
+	font-family: $clean;
+	&:hover {
+		color: darken($primary, 15%);
+	}
+}
+
+.btn-secondary {
+	color: $white;
+	background-color: $secondary;
+	border-color: darken($secondary, 5%);
+	font-family: $clean;
+	&:hover {
+		background-color: darken($secondary, 10%);
+		border-color: darken($secondary, 15%);
+	}
+}
+
+.btn-secondary-invert {
+	background: $white;
+	border-color: $white;
+	color: $secondary;
+	font-family: $clean;
+	&:hover {
+		color: darken($secondary, 15%);
+	}
+}
+
+.btn-danger {
+	color: $white;
+	background-color: $danger;
+	border-color: darken($danger, 5%);
+	font-family: $clean;
+	&:hover {
+		background-color: darken($danger, 10%);
+		border-color: darken($danger, 15%);
+	}
+}
+
+.btn-danger-invert {
+	background: $white;
+	border-color: $white;
+	color: $danger;
+	font-family: $clean;
+	&:hover {
+		color: darken($danger, 15%);
+	}
+}
+
+.btn-danger-invert-trans {
+	background: transparent;
+	border-color: transparent;
+	color: $danger;
+	font-family: $clean;
+	&:hover {
+		color: darken($danger, 15%);
+	}
+}
+
+.btn-black-invert-danger-trans {
+	background: transparent;
+	border-color: $black;
+	color: $black;
+	font-family: $clean;
+	&:hover {
+		color: $danger;
+		border-color: $danger;
+	}
+}
+
+.btn-white-invert-secondary-trans {
+	background: transparent;
+	border-color: $white;
+	color: $white;
+	font-family: $clean;
+	&:hover {
+		color: $secondary;
+		border-color: $secondary;
+	}
+}
+
+.btn-white-invert-primary-trans {
+	background: transparent;
+	border-color: $white;
+	color: $white;
+	font-family: $clean;
+	&:hover {
+		color: $primary;
+		border-color: $primary;
+	}
+}
+
+.btn-black-invert-primary-trans {
+	background: transparent;
+	border-color: $black;
+	color: $black;
+	font-family: $clean;
+	&:hover {
+		color: $primary;
+		border-color: $primary;
+	}
+}
+
+.btn-round { 
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+	.btn-lg {
+		width: 50px;
+		height: 50px;
+		padding: 10px 16px;
+		font-size: 18px;
+		line-height:1.33;
+		border-radius: 25px;
+	}
+}
+
+// Avatars + Other Images
+
+.avatar, .avatar img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin: 10px auto;
+	display: block;
+}
+
+// MATERIAL DESIGN
+
+.mf-bottom-right {
+	position:fixed;
+	bottom:10px;
+	right:20px;
+}
+
+// ALERTS
+
+.alert {
+	position: fixed;
+	margin: 0px 20px;
+	width:400px;
+	right: 0;
+	z-index: 5;
+	top: 60px;
+}
+
+.alert-info {
+	background-color: $secondary;
+	border-color: darken($secondary, 10%);
+	color: darken($secondary, 30%);
+}
